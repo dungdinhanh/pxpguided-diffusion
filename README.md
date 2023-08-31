@@ -71,12 +71,18 @@ python classifier_sample.py $MODEL_FLAGS --classifier_scale 10.0 --classifier_pa
 
 # Results
 
-This table summarizes our ImageNet results for pure guided diffusion models:
+[//]: # (This table summarizes our ImageNet results for pure guided diffusion models:)
 
-| Dataset          | FID  | Precision | Recall |
-|------------------|------|-----------|--------|
-| ImageNet 64x64   | 2.07 | 0.74      | 0.63   |
-| ImageNet 128x128 | 2.97 | 0.78      | 0.59   |
-| ImageNet 256x256 | 4.59 | 0.82      | 0.52   |
-| ImageNet 512x512 | 7.72 | 0.87      | 0.42   |
+[//]: # ()
+[//]: # (| Dataset          | FID  | Precision | Recall |)
+
+[//]: # (|------------------|------|-----------|--------|)
+
+[//]: # (| ImageNet 64x64   | 2.07 | 0.74      | 0.63   |)
+
+[//]: # (| ImageNet 128x128 | 2.97 | 0.78      | 0.59   |)
+
+[//]: # (| ImageNet 256x256 | 4.59 | 0.82      | 0.52   |)
+
+[//]: # (| ImageNet 512x512 | 7.72 | 0.87      | 0.42   |)
 
