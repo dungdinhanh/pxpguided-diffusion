@@ -4,7 +4,7 @@ This is the codebase for [PixelAsParam: A Gradient View on Diffusion Sampling wi
 
 This repository is based on [openai/improved-diffusion](https://github.com/openai/guided-diffusion), with modifications for PixelAsParam sampling.
 
-# Download pre-trained models
+## Download pre-trained models
 
 We have utilized the checkpoints from [openai/improved-diffusion](https://github.com/openai/guided-diffusion). Before using these models, please review the corresponding [model card](model-card.md) to understand the intended use and limitations of these models.
 
@@ -20,7 +20,7 @@ Here are the download links for each model checkpoint (Mostly from OpenAI except
  * 256x256 diffusion: [256x256_diffusion.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.pt)
  * 256x256 diffusion (not class conditional): [256x256_diffusion_uncond.pt](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt)
 
-# Sampling from pre-trained models
+## Sampling from pre-trained models
 
 To sample from these models, you can use the `classifier_sample.py`, `image_sample.py`, and `super_res_sample.py` scripts.
 Here, we provide flags for sampling from all of these models.
@@ -32,7 +32,7 @@ For these examples, we will generate 100 samples with batch size 4. Feel free to
 SAMPLE_FLAGS="--batch_size 4 --num_samples 100 --timestep_respacing 250"
 ```
 
-## Classifier guidance
+### Classifier guidance
 
 Note for these sampling runs that you can set `--classifier_scale 0` to sample from the base diffusion model.
 You may also use the `image_sample.py` script instead of `classifier_sample.py` in that case.
@@ -69,7 +69,7 @@ python classifier_sample.py $MODEL_FLAGS --classifier_scale 10.0 --classifier_pa
 
 
 
-# Results
+## Results
 
 [//]: # (This table summarizes our ImageNet results for pure guided diffusion models:)
 
