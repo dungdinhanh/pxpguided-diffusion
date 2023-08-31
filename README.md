@@ -1,4 +1,4 @@
-# guided-diffusion
+# PixeAsParam: A Gradient View on Diffusion Sampling with Guidance
 
 This is the codebase for [PixelAsParam: A Gradient View on Diffusion Sampling with Guidance](https://proceedings.mlr.press/v202/dinh23a/dinh23a.pdf).
 
