@@ -2,11 +2,11 @@
 
 This is the codebase for [PixelAsParam: A Gradient View on Diffusion Sampling with Guidance](https://proceedings.mlr.press/v202/dinh23a/dinh23a.pdf).
 
-This repository is based on [openai/improved-diffusion](https://github.com/openai/guided-diffusion), with modifications for PixelAsParam sampling.
+This repository is based on [openai/guided-diffusion](https://github.com/openai/guided-diffusion), with modifications for PixelAsParam sampling.
 
 ## Download pre-trained models
 
-We have utilized the checkpoints from [openai/improved-diffusion](https://github.com/openai/guided-diffusion). Before using these models, please review the corresponding [model card](model-card.md) to understand the intended use and limitations of these models.
+We have utilized the checkpoints from [openai/guided-diffusion](https://github.com/openai/guided-diffusion). Before using these models, please review the corresponding [model card](model-card.md) to understand the intended use and limitations of these models.
 
 
 
