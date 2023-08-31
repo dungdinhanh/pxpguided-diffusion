@@ -89,6 +89,8 @@ python classifier_sample.py $MODEL_FLAGS --classifier_scale 10.0 --classifier_pa
 
 ## Results
 
+We will upload the output samples soon!!!
+
 [//]: # (This table summarizes our ImageNet results for pure guided diffusion models:)
 
 [//]: # ()
