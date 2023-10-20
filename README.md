@@ -45,7 +45,7 @@ MODEL_FLAGS="--attention_resolutions 32,16,8 --class_cond True --diffusion_steps
  --resblock_updown True --use_new_attention_order True --use_fp16 True --use_scale_shift_norm True"
 
 
-python scripts_gdiff/pxp/classifier_sample_clsden_clsdiv.py $MODEL_FLAGS --classifier_scale 1.0 --classifier_path models/64x64_classifier.pt --classifier_depth 4 --model_path models/64x64_diffusion.pt $SAMPLE_FLAGS
+python scripts_gdiff/pxp/classifier_sample_clsden.py $MODEL_FLAGS --classifier_scale 1.0 --classifier_path models/64x64_classifier.pt --classifier_depth 4 --model_path models/64x64_diffusion.pt $SAMPLE_FLAGS
 ```
 
  * 64x64 unconditional model:
